@@ -1,0 +1,19 @@
+{
+  "name": "authentication_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "authentication.js",
+  "scripts": {
+    "devStart" : "nodemon authentication.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
